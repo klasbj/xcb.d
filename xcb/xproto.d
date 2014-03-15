@@ -1581,7 +1581,6 @@ struct xcb_configure_window_request_t {
     xcb_window_t window; /**<  */
     ushort       value_mask; /**<  */
     ubyte        pad1[2]; /**<  */
-    ushort       value_mask; /**<  */
 } ;
 
 enum :int{
@@ -5890,7 +5889,6 @@ xcb_configure_window_checked (xcb_connection_t *c  /**< */,
 extern(C) xcb_void_cookie_t
 xcb_configure_window (xcb_connection_t *c  /**< */,
                       xcb_window_t      window  /**< */,
-                      ushort            value_mask  /**< */,
                       ushort            value_mask  /**< */,
                       /+const+/ uint   *value_list  /**< */);
 
