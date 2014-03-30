@@ -1,0 +1,15 @@
+xcb.d
+-----
+
+xcb.d is bindings D bindings for the XCB library.
+
+It is based on what is on dsource.org:
+  http://lists.freedesktop.org/archives/xcb/2007-August/002977.html
+and XML files from xcb-proto 1.10. The XML files are slightly modified
+to pass through the generator script (mostly xkb.xml). Some parts will likely
+not work.
+
+Licenses
+--------
+
+See COPYING for license information.
